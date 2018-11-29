@@ -11,4 +11,4 @@ Default username is ubuntu, default password is ubuntu. It is recommended to eit
 Image is coming soon.
 
 ## Known Issues
-*The Raspberry Pi Hybrid kernel is used compiled for 64-bit support rather than the linux-raspi2 kernel.
+*The Raspberry Pi Hybrid kernel is used compiled with ARM64 support rather than the linux-raspi2 kernel.
