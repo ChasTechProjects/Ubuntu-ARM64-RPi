@@ -9,3 +9,6 @@ ubuntu-desktop (GNOME 3) and ubuntu-unity-desktop (The default desktop environme
 Default username is ubuntu, default password is ubuntu. It is recommended to either create a new account with sudo privileges and then use that account to delete the default account, or create a new account with sudo privileges and change the password of the ubuntu account to something secure.
 
 Image is coming soon.
+
+## Known Issues
+*The Raspberry Pi Hybrid kernel is used compiled for 64-bit support rather than the linux-raspi2 kernel.
