@@ -12,4 +12,5 @@ Image is coming soon.
 
 ## Known Issues
 *The Raspberry Pi Hybrid kernel is used compiled with ARM64 support rather than the linux-raspi2 kernel.
+
 *Currently, no WiFi, not even Ethernet, works. I've tried installing various packages such as wpasupplicant and resolvconf but same issue. Expect the image to be released when this issue is fixed.
