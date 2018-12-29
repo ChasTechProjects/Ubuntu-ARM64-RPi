@@ -21,3 +21,16 @@ The built-in wireless support, as well as sound (snd_bcm2835) works.
 ## Known Issues
 * The linux-raspi2 kernel in bionic has not been updated since April 2018, meaning that it hasn't received the latest security patches and is not compatible with the Pi 3B+ out of the box. To fix the second issue, the latest bootloader files (bootcode.bin, *.elf, *.dat) from the Raspbian repositories were used after the linux-raspi2 kernel was installed.
 * lubuntu-desktop is not available for arm64 in the bionic repositories, although it is available for cosmic arm64.
+
+## Q&A
+
+### My Pi hangs at the rainbow screen.
+
+If your Pi hangs at the rainbow screen when booting one of these images, it means one of the following:
+
+* You are using an incompatible Pi model. Ubuntu ARM64 only works on Pi's with the BCM2837 SoC.
+* Your power supply isn't strong enough.
+
+### Why aren't standard Ubuntu (GNOME 3) and Ubuntu Unity on the list of Ubuntu flavours to be ported to the Pi?
+
+GNOME 3 and Unity are very resource heavy desktop environments and would be unusable on 1GB RAM. These desktop environments also require 3D compositing, something the linux-raspi2 kernel does not provide.
