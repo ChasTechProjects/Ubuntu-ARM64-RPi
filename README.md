@@ -1,16 +1,22 @@
 # Ubuntu-ARM64-RPi
-An Ubuntu 18.10 image for the Raspberry Pi 3 built upon the standard Ubuntu ARM64 base.
+Ubuntu 18.04 desktop images for the Raspberry Pi 3 built upon the standard Ubuntu ARM64 base.
 
-This is a minimal Ubuntu 18.10 image for the Raspberry Pi 3 (as well as the Pi 2 Rev 1.2). It does not come with a desktop environment preinstalled, so you must install one manually if you want a GUI.
+These are Ubuntu 18.04 desktop images for the Raspberry Pi 3 built upon the standard Ubuntu ARM64 base.
 
-You can either install lubuntu-desktop, xubuntu-desktop, ubuntu-mate-desktop, or kubuntu-desktop. Alternatively, if your SD card is big enough, you could install the Ubuntu Studio desktop along with the software found in Ubuntu Studio.
-ubuntu-desktop (GNOME 3) and ubuntu-unity-desktop (The default desktop environment in Ubuntu versions 17.04 and older) do not work since they require 3D compositing. kubuntu-desktop is slow unless you turn off desktop effects.
+They use the linux-raspi2 kernel instead of Raspbian's kernel. 
 
-Default username is ubuntu, default password is ubuntu. It is recommended to either create a new account with sudo privileges and then use that account to delete the default account, or create a new account with sudo privileges and change the password of the ubuntu account to something secure.
+The following images will be available at some point:
 
-Image is coming soon.
+* Ubuntu MATE 18.04
+* Xubuntu 18.04
+* Kubuntu 18.04
+* Ubuntu Studio 18.04
+
+Unfortunately, a Lubuntu 18.04 image cannot be built at the moment since lubuntu-desktop is not available for bionic arm64 at the moment.
+
+Default username is ubuntu, default password is ubuntu. It is recommended to change your username and password. To change your password, simply run 'sudo passwd' in the terminal. You can change your username, but cannot do so while you're logged in as that user. So you'll have to change the root account password, reboot your system, login as the root user, and change your user's password from there. To do this, follow Valentin Uvega's instructions from <a href="https://askubuntu.com/questions/34074/how-do-i-change-my-username>this AskUbuntu discussion.
 
 ## Known Issues
 *The Raspberry Pi Hybrid kernel is used compiled with ARM64 support rather than the linux-raspi2 kernel.
 
-*Currently, no WiFi, not even Ethernet, works. I've tried installing various packages such as wpasupplicant and resolvconf but same issue. Expect the image to be released when this issue is fixed.
+*Currently, no WiFi, not even Ethernet, works. I've tried installing various packages such as wpasupplicant and resolvconf but same issue. Expect the image to be released when this issue is fixed. 
