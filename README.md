@@ -14,7 +14,7 @@ The following images will be available at some point:
 
 Unfortunately, a Lubuntu 18.04 image cannot be built at the moment since lubuntu-desktop is not available for bionic arm64 at the moment.
 
-Default username is ubuntu, default password is ubuntu. It is recommended to change your username and password. To change your password, simply run 'sudo passwd' in the terminal. You can change your username, but cannot do so while you're logged in as that user. So you'll have to change the root account password, reboot your system, login as the root user, and change your user's password from there. To do this, follow Valentin Uvega's instructions from <a href="https://askubuntu.com/questions/34074/how-do-i-change-my-username">this AskUbuntu discussion.</a>
+Default username is ubuntu, default password is ubuntu. It is recommended to change your username and password. To change your password, simply run 'sudo passwd' in the terminal. You can change your username, but cannot do so while you're logged in as that user. So you'll have to change the root account password, reboot your system, login as the root user, and change your username from there. To do this, follow Valentin Uvega's instructions from <a href="https://askubuntu.com/questions/34074/how-do-i-change-my-username">this AskUbuntu discussion.</a>
 
 The built-in wireless support, as well as sound (snd_bcm2835) works.
 
