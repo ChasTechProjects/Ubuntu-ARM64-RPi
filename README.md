@@ -19,5 +19,5 @@ Default username is ubuntu, default password is ubuntu. It is recommended to cha
 The built-in wireless support, as well as sound (snd_bcm2835) works.
 
 ## Known Issues
-* The linux-raspi2 kernel in bionic has not been updated since April 2018, meaning that it hasn't received the latest security patches and is not compatible with the Pi 3B+ out of the box. To fix this, the latest bootloader files (bootcode.bin, *.elf, *.dat) from the Raspbian repositories were used after the linux-raspi2 kernel was installed.
+* The linux-raspi2 kernel in bionic has not been updated since April 2018, meaning that it hasn't received the latest security patches and is not compatible with the Pi 3B+ out of the box. To fix the second issue, the latest bootloader files (bootcode.bin, *.elf, *.dat) from the Raspbian repositories were used after the linux-raspi2 kernel was installed.
 * lubuntu-desktop is not available for arm64 in the bionic repositories, although it is available for cosmic arm64.
