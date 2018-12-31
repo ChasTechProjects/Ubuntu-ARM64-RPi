@@ -34,3 +34,7 @@ If your Pi hangs at the rainbow screen when booting one of these images, it mean
 ### Why aren't standard Ubuntu (GNOME 3) and Ubuntu Unity on the list of Ubuntu flavours to be ported to the Pi?
 
 GNOME 3 and Unity are very resource heavy desktop environments and would be unusable on 1GB RAM. These desktop environments also require 3D compositing, something the linux-raspi2 kernel does not provide.
+
+### Why does only one image get uploaded at a time? 
+
+Uploading files (especially ones larger than 1GB) to GitHub takes a long time. If I were to upload two images at the same time to GitHub, it would slow down the overall upload speed. To speed up the upload time, I compress the images using the 7z archive format.
