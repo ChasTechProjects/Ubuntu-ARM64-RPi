@@ -5,10 +5,13 @@ These are Ubuntu 18.04 desktop images for the Raspberry Pi 3 built upon the stan
 
 They use the linux-raspi2 kernel instead of Raspbian's kernel. 
 
-The following images will be available at some point:
+The following images are currently available:
 
 * Ubuntu MATE 18.04
 * Xubuntu 18.04
+
+The following images will also be available at some point:
+
 * Kubuntu 18.04
 * Ubuntu Studio 18.04
 
