@@ -15,7 +15,7 @@ The following images will also be available at some point:
 * Kubuntu 18.04
 * Ubuntu Studio 18.04
 
-Unfortunately, a Lubuntu 18.04 image cannot be built at the moment since lubuntu-desktop is not available for bionic arm64 at the moment.
+Unfortunately, a Lubuntu 18.04 image cannot be built at the moment since lubuntu-desktop is not available for bionic arm64 at the moment. But a Lubuntu 18.10 image is planned (lubuntu-desktop is available in cosmic arm64).
 
 Default username is ubuntu, default password is ubuntu. It is recommended to change your username and password. To change your password, simply run 'sudo passwd' in the terminal. You can change your username, but cannot do so while you're logged in as that user. So you'll have to change the root account password, reboot your system, login as the root user, and change your username from there. To do this, follow Valentin Uvega's instructions from <a href="https://askubuntu.com/questions/34074/how-do-i-change-my-username">this AskUbuntu discussion.</a>
 
