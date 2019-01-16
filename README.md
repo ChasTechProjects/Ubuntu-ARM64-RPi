@@ -41,3 +41,7 @@ GNOME 3 and Unity are very resource heavy desktop environments and would be unus
 ### Why does only one image get uploaded at a time? 
 
 Uploading files (especially ones larger than 1GB) to GitHub takes a long time. If I were to upload two images at the same time to GitHub, it would slow down the overall upload speed. To speed up the upload time, I compress the images using the 7z archive format.
+
+## Is the project dead?
+
+No, the project is not dead. I simply can't create any images at the moment because of an issue with the keyboard-configuration package required to create a minimal Ubuntu installation using debootstrap. I've reported the issue on Launchpad and hope it will be fixed soon.
