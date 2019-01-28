@@ -24,6 +24,7 @@ The built-in wireless support, as well as sound (snd_bcm2835) works.
 ## Known Issues
 * The linux-raspi2 kernel in bionic has not been updated since April 2018, meaning that it hasn't received the latest security patches and is not compatible with the Pi 3B+ out of the box. To fix the second issue, the latest bootloader files (bootcode.bin, *.elf, *.dat) from the Raspbian repositories were used after the linux-raspi2 kernel was installed.
 * lubuntu-desktop is not available for arm64 in the bionic repositories, although it is available for cosmic arm64.
+* If you cannot reconfigure keyboard-configuration using dpkg or raspi-config ('eval: en: not found' error when trying) then try reconfiguring it from the command line interface instead of a terminal (access the CLI by pressing CTRL + ALT+ F2)
 
 ## Q&A
 
